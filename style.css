@@ -19,6 +19,19 @@ header {
 
 }
 
+/* Footer*/
+
+.footer {
+    font-family: sans-serif;
+    height: 150px;
+    color: grey;
+    padding: 20px;
+}
+
+.hojre {
+    text-align: right;
+        padding: 20px;
+}
 
 nav {
 
@@ -30,26 +43,31 @@ nav {
 }
 
 nav a:link {
-    color: black;
+    color: #eb5833;
     text-decoration: none;
 }
 
 /* visited link */
 
 nav a:visited {
-    color: white;
+    color: black;
 }
 
 /* mouse over link */
 
 nav a:hover {
-    color: #cf8952;
+    color: grey;
 }
 
 /* selected link */
 
 nav a:active {
-    color: #a8a159;
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 .fa {
@@ -213,6 +231,10 @@ img {
 
 /*bar indstillinger */
 
+.bartxt {
+    color:red;
+}
+
 #bar img {
     max-width: 200px;
     padding: 20px;
@@ -220,7 +242,7 @@ img {
 }
 
 #bar .columnsmal img {
-    max-width: 250px;
+    max-width: 350px;
     padding: 20px;
 }
 
