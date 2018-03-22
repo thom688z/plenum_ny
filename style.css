@@ -189,16 +189,22 @@ img {
 
 /*KAFFE indstillinger */
 
-#kaffe .top {
-    max-width: 200px;
-    max-height: 200px;
-    padding: 20px;
+#kaffe .column_content {
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
 }
 
-#kaffe .bottom {
-    max-width: 200px;
-    max-height: 200px;
-    padding: 20px;
+#kaffe .column {
+    background-color: ghostwhite;
+    border: solid white 0.5em;
+    margin-bottom: 1.1em;
+}
+
+#kaffe img {
+    width: 100%;
 }
 
 
