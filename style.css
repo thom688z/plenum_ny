@@ -1,0 +1,248 @@
+/*generelle indstillinger */
+
+html {
+    background-color: black;
+}
+
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+
+    height: 130px;
+    background-color: white;
+
+}
+
+
+nav {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    padding-left: 90px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+
+nav a:visited {
+    color: white;
+}
+
+/* mouse over link */
+
+nav a:hover {
+    color: #cf8952;
+}
+
+/* selected link */
+
+nav a:active {
+    color: #a8a159;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125648;
+    color: white;
+}
+
+H1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+H2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+H3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    font-style: oblique;
+}
+
+
+P {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.0em;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+
+    display: flex;
+
+    font-family: sans-serif;
+
+    border-color: white;
+
+    border-style: groove;
+
+    height: 150px;
+
+    color: darkolivegreen;
+
+}
+
+img {
+
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
+
+.column {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    background-color: ghostwhite;
+    border: solid white 0.5em;
+    margin-bottom: 1.1em;
+
+}
+
+.columnbred {
+    flex-basis: 400px;
+    flex-grow: 3;
+}
+
+.columnsmal {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.txt {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.image {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/*header indstillinger */
+
+/*splash indstillinger */
+
+#splash img {
+    width: 100%;
+}
+
+/*instagram indstillinger */
+
+/*KAFFE indstillinger */
+
+#kaffe .top {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+}
+
+#kaffe .bottom {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+}
+
+
+/*mad indstillinger */
+
+/*bar indstillinger */
+
+#bar img {
+    max-width: 200px;
+    padding: 20px;
+
+}
+
+#bar .columnsmal img {
+    max-width: 250px;
+    padding: 20px;
+}
+
+#bar .columnbred {
+    background-color: burlywood;
+    border: 10px solid;
+    border-color: burlywood;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#bar .columnsmal {
+    background-color: #6f1b0a;
+    border: 10px solid;
+    border-color: #6f1b0a;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/*bar indstillinger */
+
+#video .column {
+flex-basis: auto;
+background-color: #a72309;
+}
+
+.video {
+display: flex;
+
+}
+
+.hs-responsive-embed-youtube {
+
+padding: 20px;
+
+}
+
+/*information indstillinger */
+
+/*instagram indstillinger */
+
+#instagram {
+    flex-wrap: wrap;
+}
+
+#instagram .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
