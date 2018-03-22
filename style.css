@@ -186,6 +186,19 @@ img {
 
 /*mad indstillinger */
 
+#mad img {
+
+}
+
+#mad {
+    background-color: #6f1b0a;
+    border: 10px solid;
+    border-color: #6f1b0a;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
 /*bar indstillinger */
 
 #bar img {
